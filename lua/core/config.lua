@@ -44,7 +44,8 @@ vim.opt.smartindent = true
 -- Listchars
 vim.opt.list = true
 vim.opt.listchars = {
-    tab = " ",
+    tab = "  ",
+    -- tab = " ",
     -- eol = "↵",
     trail = "␣",
 }
